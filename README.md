@@ -22,3 +22,5 @@ If on Windows:
 3. `$env:FLASK_APP=quiz.py`
 4. `$env:FLASK_ENV=development`
 5. `flask run`
+
+[Link to slides from workshop](https://docs.google.com/presentation/d/1xnqQBQpRgq_-BN_g7l8nddh6ZNV9vW0VDEZb5vDZBaQ/edit?usp=sharing)
