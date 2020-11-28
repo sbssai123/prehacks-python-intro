@@ -13,12 +13,14 @@
 2. Navigate into directory: `cd prehacks-python-intro`
 3. Start up virtual environment: `python -m venv myenv`
 
-If on Mac or Linux: 
+**If on Mac or Linux:**
+
 3. `export FLASK_APP=quiz.py`
 4. `export FLASK_ENV=development`
 5. `flask run`
 
-If on Windows:
+**If on Windows:**
+
 3. `$env:FLASK_APP=quiz.py`
 4. `$env:FLASK_ENV=development`
 5. `flask run`
