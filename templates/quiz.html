@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h3>FuzzFeed</h3>
+        </div>
+        <div class="row">
+            <form action='/result' method='POST'>
+                {% for q in questions %}
+                    <div class="mt-5">
+                        <b>{{q['question']}}</b>
+                        {% for a in q['answers'] %}
+                            <div class="form-check">
+                                <input class="form-check-input" type='radio' value='{{a}}' name='{{q["question"]}}' id='{{a}}'/>
+                                <label class="form-check-label" for='{{a}}'>{{a}}</label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+                <input class="btn btn-info mt-5" type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+{% endblock %}
