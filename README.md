@@ -1,4 +1,4 @@
-# TechTogether NY PreHacks Python Workshop
+# TechTogether PreHacks Python Workshop
 
 ### Prerequisites
 1. Download latest version of [Python](https://www.python.org/downloads/release/python-360/)
